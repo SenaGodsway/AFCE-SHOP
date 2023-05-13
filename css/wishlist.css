@@ -1,0 +1,38 @@
+.title-area{
+    border-bottom: 1px solid #eee;
+    padding: 20px 100px;
+    margin-top: 70px;
+}
+
+.item-list{
+    display: flex !important;
+    justify-content:space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+}
+.item-list .item-image img{
+    height: 150px !important;
+    width: 130px;
+}
+.item-list .info{
+    width: 60%;
+}
+.item-list .action{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.item-list .action a{
+    padding: 10px;
+    display: block;
+    border-radius: 3px;
+}
+.item-list .action .add-to-cart{
+    background: var(--primary-color);
+}
+.item-list .action .delete{
+    background: #eee;
+}

@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: poppins;
+	background: #fff;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+:root{
+	--primary-color:#de5d83;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	color: #222;
+}
